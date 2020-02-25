@@ -3,8 +3,12 @@ import React, { Component } from 'react';
 class ProjectAssumption extends Component {
     constructor(props) {
         super(props);
-        this.state = {value1: Number,
-            value2: Number};
+        this.state = 
+        {   
+          
+        };
+        value1: Number
+        value2: Number
     
         this.handleChange = this.handleChange.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
@@ -15,7 +19,7 @@ class ProjectAssumption extends Component {
       }
     
       handleSubmit(event) {
-        alert('JR ' + this.state.value1 + 
+        alert('JR ' + value1 + 
         'MID ' + this.state.value2
         );
         event.preventDefault();
@@ -29,7 +33,7 @@ class ProjectAssumption extends Component {
                 <div className="row mt-4">
                     <div className="col-md-4">
                         <label>Jr Developer</label>
-                        <select className="custom-select" value={this.state.value1} onChange={this.handleChange}>
+                        <select className="custom-select" value={value1} onChange={this.handleChange}>
                             <option value="1">1</option>
                             <option value="2">2</option>
                             <option value="3">3</option>

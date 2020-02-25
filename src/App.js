@@ -1,14 +1,16 @@
 import React from 'react';
 import './App.css';
-import ProjectAssumption from './Components/projectAssumption';
+import Select from 'react-select'
+import TeamComposition from './Components/teamComposition';
+import StateManager from 'react-select';
 
 function App() {
-
   return (
-    <div className="container">
-      <ProjectAssumption></ProjectAssumption>
+    <div>
+    <TeamComposition></TeamComposition>
+  <h1>{TeamComposition.pr}</h1>
     </div>
-  );
+  )
 }
 
 export default App;
